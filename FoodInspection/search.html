@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Prince George Food Inspection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <style type="text/css">
+      body{
+        overflow-x: hidden;
+      }
+      .main .header .container{
+        width: 100%;
+        max-width: 100%;
+        margin: 20px;
+      }
+      input[type=text] {
+          width: 22%;
+          padding: 15px;
+          border: none;
+          font-size: 18px;
+          font-family: sans-serif;
+          border-radius: 5px 0 0 5px;
+          background-color: rgba(255,255,255,.5);
+          border:1px solid #ccc;
+      }
+      input[type=button] {
+          padding: 15px;
+          border: none;
+          font-size: 18px;
+          font-family: 'Open Sans', sans-serif;
+          background: #af3838;
+          color: white;
+          border-radius: 0 5px 5px 0;
+          cursor: pointer;
+      }
+      .footer{
+        /*position: static;*/
+      }
+      .table{
+        margin-top: 20px;
+        display: none;
+      }
+      .table tr{
+        display: block;
+      }
+      .table th,.table td{
+        width: 150px;
+      }
+    </style>
+</head>
+
+<body>
+  <div class="main">
+   <div class="main-box">
+     <div class="header">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid"></div>
+        <div class="navbar-header"></div>
+        <a class="navbar-brand"><p style="font-size:25px; color:ivory">Prince George County</p></a>
+    
+        <div>
+            <ul class="menu">
+              <a href="index.html"><button class="btn btn-primary">Home</button></a>
+              <a href="search.html"> <button class="btn btn-success">Search</button></a>
+              <a href="about.html"> <button class="btn btn-warning">About</button></a>
+            </ul>
+          </div>
+      </nav>
+    
+        
+    <main class="bd-masthead" id="content" role="main">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6 mx-auto col-md-6 order-md-2">  
+          </div>
+          <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
+              <p style="font-size:50px; color:#B71C1C">Search</p>
+          </div>
+       
+        </div>
+        <div class="row">
+          <div class="form-box">
+                <label>Establishment name</label>
+                <input id="name" type="text" name="search" >
+                <!-- <input id="category" type="text" name="search" placeholder="Category"> -->
+                <label>Category</label>
+                <input id="category" type="text" name="search" >
+                <label>Zip</label>
+                <input id="zip" type="text" name="search" >
+                <input type="button" onclick="search('1')" value="Search">
+
+            </div>
+          <div class="">
+            <table class="table" id="table">
+              <thead>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Inspection_date</th>
+                <th>Inspection_result</th>
+                <th>City</th>
+                <th>ZIP</th>
+                <th>Address_line_1</th>
+                <th>Address_line_2</th>
+                <th>Inspection_type</th>
+               <!--  <th>Location</th>
+                <th>Zip_codes</th> -->
+
+              </thead>
+              <tbody id="result">
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main> 
+    
+    <div class="footer">
+        <div class="text-center py-1">
+            <p style="font-size:15px; color:ivory">© 2019 Copyright: Team 6</p>
+          </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="api.js"></script>
+</body>
+ 
+</html>
