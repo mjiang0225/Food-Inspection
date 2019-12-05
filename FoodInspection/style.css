@@ -5,6 +5,10 @@ html,body {
   }
 
 body {background-color: #FFFFFF;}
+.main{
+	padding-bottom: 50px;
+	overflow: hidden;
+}
 
 
 .main
