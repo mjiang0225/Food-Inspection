@@ -1,4 +1,4 @@
-        // api for search foods
+      // api for search foods
 
         //Get the results
         var resultDiv = document.getElementById("result");
@@ -30,36 +30,31 @@
 
                     //pull out the data 
                     var str = '';
-                    var name = document.getElementById('name').value;
+                    var res = document.getElementById('name').value;
+                    var name = res.toUpperCase();
                     var category = document.getElementById('category').value;
                     var zip = document.getElementById('zip').value;
-                    var arr = [];
+                  
                     for (var i = 0, len = result.length; i < len; i++) {
-                            if(name != '') {
-                                if(name == result[i].name || category == result[i].category || zip == result[i].zip) {
-                                    str += '<tr><td>'+ result[i].name +'</td><td>'+ result[i].category +'</td><td>'+ result[i].inspection_date +'</td><td>'+ result[i].inspection_results +'</td><td>'+ result[i].city +'</td><td>'+ result[i].zip +'</td><td>'+ result[i].address_line_1 +'</td><td>'+ result[i].address_line_2 +'</td><td>'+ result[i].inspection_type +'</td></tr>';
-                                }
+                        if(name != '') {
+                            if(name != result[i].name) {
+                                continue;
                             }
-                            else if (category != '') {
-                                if(name == result[i].name || category == result[i].category || zip == result[i].zip) {
-                                    str += '<tr><td>'+ result[i].name +'</td><td>'+ result[i].category +'</td><td>'+ result[i].inspection_date +'</td><td>'+ result[i].inspection_results +'</td><td>'+ result[i].city +'</td><td>'+ result[i].zip +'</td><td>'+ result[i].address_line_1 +'</td><td>'+ result[i].address_line_2 +'</td><td>'+ result[i].inspection_type +'</td></tr>';
-                                }
+                        }
+                        if (category != '') {
+                            if(category != result[i].category) {
+                                continue;
                             }
-                            else if (zip != '') {
-                                if(name == result[i].name || category == result[i].category || zip == result[i].zip) {
-                                    str += '<tr><td>'+ result[i].name +'</td><td>'+ result[i].category +'</td><td>'+ result[i].inspection_date +'</td><td>'+ result[i].inspection_results +'</td><td>'+ result[i].city +'</td><td>'+ result[i].zip +'</td><td>'+ result[i].address_line_1 +'</td><td>'+ result[i].address_line_2 +'</td><td>'+ result[i].inspection_type +'</td></tr>';
-                                }
-                            } 
-                            /**else {
-                                str += '<tr><td>'+ result[i].name +'</td><td>'+ result[i].category +'</td><td>'+ result[i].inspection_date +'</td><td>'+ result[i].inspection_results +'</td><td>'+ result[i].city +'</td><td>'+ result[i].zip +'</td><td>'+ result[i].address_line_1 +'</td><td>'+ result[i].address_line_2 +'</td><td>'+ result[i].inspection_type +'</td></tr>';
-                            } **/ 
-                            
-                         
-                         
-                        
+                        }
+                        if (zip != '') {
+                            if(zip != result[i].zip) {
+                               continue;
+                            }
+                        }
+                        str += '<tr><td>'+ result[i].name +'</td><td>'+ result[i].category +'</td><td>'+ result[i].inspection_date +'</td><td>'+ result[i].inspection_results +'</td><td>'+ result[i].city +'</td><td>'+ result[i].zip +'</td><td>'+ result[i].address_line_1 +'</td><td>'+ result[i].address_line_2 +'</td><td>'+ result[i].inspection_type +'</td></tr>';
+                    
                     }
                     document.getElementById('result').innerHTML = str;
-
 
                 } else {
                     alert('There was a problem with the request.');
