@@ -10,4 +10,3 @@ Our Targeted browser is iOS due to the simple fact that the majority of the comm
 # Link to User Manual
 
 # Link to Developer Manual
-
