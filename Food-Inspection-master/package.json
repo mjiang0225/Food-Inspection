@@ -1,0 +1,29 @@
+{
+    "name": "Food-Inspection",
+    "version": "1.0.0",
+    "description": "Final project for INST 377",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node start.js"
+    },
+    "engines": {
+      "node": ">=7.6.0",
+      "npm": ">=4.1.2"
+    },
+    "author": "Team 6",
+    "license": "CC-BY-SA-4.0",
+    "dependencies": {
+        "express": "^4.17.1",
+        "node-fetch": "^2.6.0"
+    },
+    "devDependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mjiang0225/Food-Inspection.git" 
+    },
+    "bugs": {
+      "url": "https://github.com/mjiang0225/Food-Inspection/issue"
+    },
+    "homepage": "https://github.com/mjiang0225/Food-Inspection#readme"
+  }
