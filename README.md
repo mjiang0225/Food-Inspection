@@ -7,25 +7,7 @@ We have realized that the community in Prince George's County is faced with dail
   https://festive-morse-8e3349.netlify.com/
 
 # Target browsers 
-Our Targeted browser is iOS due to the simple fact that the majority of the community uses iOS smart phones and devices, but our application will be available on both iOS and Android platforms. 
+Our Targeted browsers are desktop-based web browsers. Run properly in Chrome, IE, Safari and other browsers. iOS due to the simple fact that the majority of the community uses iOS smart phones and devices, but our application will be available on both iOS and Android platforms. 
 
-# Stakeholders
- Residents of PG County
- Producers & Consumers of food related organizations in Prince George's County
- 
-Application solves information dissemination issue- gives the public a resource where they can research food consumption safety within PG County, Maryland.
-    
- # Tech
-The dataset used was acquired from the PG County food inspection open portal database. The dataset is API Soda, which we acquired from its website.
-Employed Bootstrap library during code writing to ensure good design choices. 
-  
- # Challenges
-   Responsive webdesign
-   Github and Netlify technical difficulties, causing delay
-    
- # Successes
-   Eventually, we were able to get our HTML and CSS to the functional point that we wanted to.
-   Buttons, search tools and filters all functioning successfully.
-    
-    
-    
+# Developer Manual
+
