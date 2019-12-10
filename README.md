@@ -10,4 +10,38 @@ We have realized that the community in Prince George's County is faced with dail
 Our Targeted browsers are desktop-based web browsers. Run properly in Chrome, IE, Safari and other browsers. iOS due to the simple fact that the majority of the community uses iOS smart phones and devices, but our application will be available on both iOS and Android platforms. 
 
 # Developer Manual
+Recommendations:
+
+-	Use GitHub Desktop for easy transfer of files
+-	Open index.html in Visual Studio Code with extension Live Server by Ritwick Dey installed
+-	Allows users to access the app without having to run server through Terminal/Command Prompt
+
+How to run server (if VSCode does not work):
+-	Install any version of Python 3.x (Macs/Linux will have this installed already)
+-	Open Command Prompt (Windows) or Terminal (Mac)
+-	Type Python –v to confirm that Python is installed
+-	Navigate to the director where you have the application installed
+-	Type python –m simplehttpserver in the Terminal/Command Line window
+-	Server will run at port 8000 by default
+-	To access the main page, type localhost:8000 in your web browser once the server is running
+Tests:
+-	None written yet
+
+API Used in Server Application
+
+-	API Link: 
+-	https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json
+
+-	List of functions:
+
+o	makeRequest()
+	Sends request to HTTP server and creates XMLHTTP instance
+o	getResult()
+	Uses obtained XMLHTTP request data and parses the request using JSON, logging the results of this to the console. It then pulls out the data by name, category, and zip code and converts these to uppercase, iterating through the entire file
+o	Search(s)
+	Searches the document for names, categories, and zip codes by their element ID, then places these elements in a table presented in block display. It then clears the last results to prevent confusion.
+-	Bugs/Roadmap:
+o	Make layout more dynamic, better for mobile versions. Works great on PC/Mac, but there is always room for improvement.
+o	Increase the scope of the project, including more restaurants within Prince George’s Country and potentially outside it
+o	Add even more filters so that users can further refine their searches
 
