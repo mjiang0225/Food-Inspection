@@ -3,6 +3,8 @@ The purpose of this application is to provide essntial information to communitie
 
 # Application Details 
 When the user navigates to our application, they will be redirected to an index page. In the Index page there will be a home button, and about us button, and a search button. 
+When the viewer selects "search", they are taken to a page where one can enter an 'Establishment Name', a 'Category' or 'Zipcode', to refine the viewers desired results more.
+
 # Home
 The home button will redirect the user to the home page of our application. 
 # About Us
