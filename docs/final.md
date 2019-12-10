@@ -7,7 +7,7 @@ Prince George’s County Food Safety
 Jason Crews, Menglin Jiang, Adam Benaim, Qingru Su, Timothy Yun
 
 # Link to where your app is running
-(Provide Link)
+https://festive-morse-8e3349.netlify.com/
 
 # Information problem you're trying to solve
 The Prince George's County community is faced with the daily risk of foodborne illness due to being unaware of the conditions of facilities where their food is outsourced.
@@ -28,7 +28,9 @@ As a solution to our information problem, we decided to create an application th
 Our final system will act as a solution to our information problem by making essential information accessible. The general public will be able to use our application and access important information pertaining to food source conditions that is required during the decision-making process by the public to deem if food is safe to consume based on local, state, and federal regulations. Our application provides all required information needed to make these decisions which will benefit the community and expunge the information gap pertaining to this specific issue.  
 
 # Challenges faced and impact on final design
-(Fill in)
+We had initially planned to include a map using the Leaflet.js library in our presentation that would be populated with the locations from the data points. This ended up being too daunting of a task to complete within the timeframe. 
+Technical delays due to issues within Github and Netlify.
+We struggled with executing the layout to make it consistent to view, both on the web and on the mobile app.
 
 # Possible future work directions with this problem
 Eventually this application could be expanded to service more states ultimately providing service to the entire United States. Also, another direction we would take is to potentially clean up the application for a more professional look, including pictures of facilities that are searched and consumer review options. Our long-term goal is to raise the standard in food safety while creating a collaborative community with the same goal of achieving complete consumption/food safety. 
