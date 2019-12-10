@@ -32,3 +32,19 @@ We struggled with executing the layout to make it consistent to view, both on th
 # Possible future work directions with this problem
 Eventually this application could be expanded to service more states ultimately providing service to the entire United States. Also, another direction we would take is to potentially clean up the application for a more professional look, including pictures of facilities that are searched and consumer review options. Our long-term goal is to raise the standard in food safety while creating a collaborative community with the same goal of achieving complete consumption/food safety. 
 
+# Stakeholders
+Residents of PG County
+Producers & Consumers of food related organizations in Prince George's County
+ 
+Application solves information dissemination issue- gives the public a resource where they can research food consumption safety within PG County, Maryland.
+    
+# Tech
+The dataset used was acquired from the PG County food inspection open portal database. The dataset is API Soda, which we acquired from its website.
+Employed Bootstrap library during code writing to ensure good design choices. 
+  
+# Successes
+Eventually, we were able to get our HTML and CSS to the functional point that we wanted to.
+Buttons, search tools and filters all functioning successfully.
+  
+# Future Plan  
+Our long-term goal is to raise the standard in food safety while creating a collaborative community with the same goal of achieving complete consumption/food safety within their communities.
