@@ -21,9 +21,6 @@ The data we chose to utilize for this application is the food inspection databas
 # Chosen strategies and solutions for the problem
 As a solution to our information problem, we decided to create an application that will be available to the general public, which will yield the ability to search through various outlets including official/government inspections of source facilities to ensure that the Prince George’s County community food consumption sources are clean and up to date with all local, state, and federal health regulations. This application will raise the standard for food safety within this community and give the public a piece of mind about where their food sourced from.  
 
-# Technical system decision rationale
-(Fill in)
-
 # How/if your final system helps to address the problem
 Our final system will act as a solution to our information problem by making essential information accessible. The general public will be able to use our application and access important information pertaining to food source conditions that is required during the decision-making process by the public to deem if food is safe to consume based on local, state, and federal regulations. Our application provides all required information needed to make these decisions which will benefit the community and expunge the information gap pertaining to this specific issue.  
 
