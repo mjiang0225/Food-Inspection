@@ -34,14 +34,14 @@ API Used in Server Application
 
 -	List of functions:
 
-makeRequest()
-  -Sends request to HTTP server and creates XMLHTTP instance
-getResult()
-  -Uses obtained XMLHTTP request data and parses the request using JSON, logging the results of this to the console. It then pulls out the data by name, category, and zip code and converts these to uppercase, iterating through the entire file
-Search(s)
-  -Searches the document for names, categories, and zip codes by their element ID, then places these elements in a table presented in block display. It then clears the last results to prevent confusion.
-Bugs/Roadmap:
-  -Make layout more dynamic, better for mobile versions. Works great on PC/Mac, but there is always room for improvement.
-  -Increase the scope of the project, including more restaurants within Prince George’s Country and potentially outside it
-  -Add even more filters so that users can further refine their searches
+makeRequest(): 
+Sends request to HTTP server and creates XMLHTTP instance
+getResult(): 
+Uses obtained XMLHTTP request data and parses the request using JSON, logging the results of this to the console. It then pulls out the data by name, category, and zip code and converts these to uppercase, iterating through the entire file
+Search(s): 
+Searches the document for names, categories, and zip codes by their element ID, then places these elements in a table presented in block display. It then clears the last results to prevent confusion.
+- Bugs/Roadmap:
+Make layout more dynamic, better for mobile versions. Works great on PC/Mac, but there is always room for improvement.
+Increase the scope of the project, including more restaurants within Prince George’s Country and potentially outside it
+Add even more filters so that users can further refine their searches
 
